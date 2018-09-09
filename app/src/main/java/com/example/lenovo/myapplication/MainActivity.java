@@ -33,11 +33,8 @@ public class MainActivity extends AppCompatActivity {
         Log.v("MYLOG", "onPause");
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.v("MYLOG", "onDestroy");
-    }
+
+    
 
     @Override
     protected void onStop() {
